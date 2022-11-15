@@ -62,7 +62,7 @@ jsonfield2==4.0.0.post0
 geoip2==4.5.0
 ipip-ipdb==1.6.1
 # Django environment
-Django==3.2.15
+Django==3.2.16
 django-bootstrap3==14.2.0
 django-filter==2.4.0
 django-formtools==2.2
@@ -79,7 +79,7 @@ drf-yasg==1.20.0
 coreapi==2.3.3
 coreschema==0.0.4
 openapi-codec==1.3.2
-Pillow==9.1.1
+Pillow==9.2.0
 pytz==2022.1
 # Runtime
 django-proxy==1.2.1
@@ -141,3 +141,4 @@ ForgeryPy3==0.3.1
 django-debug-toolbar==3.5
 Pympler==1.0.1
 IPy==1.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

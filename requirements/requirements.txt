@@ -141,3 +141,4 @@ ForgeryPy3==0.3.1
 django-debug-toolbar==3.5
 Pympler==1.0.1
 IPy==1.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

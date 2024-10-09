@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye as stage-build
+FROM python:3.12.7-slim-bullseye as stage-build
 ARG TARGETARCH
 
 ARG VERSION
@@ -8,7 +8,7 @@ WORKDIR /opt/jumpserver
 ADD . .
 RUN cd utils && bash -ixeu build.sh
 
-FROM python:3.11-slim-bullseye
+FROM python:3.12.7-slim-bullseye
 ARG TARGETARCH
 
 ARG BUILD_DEPENDENCIES="              \
